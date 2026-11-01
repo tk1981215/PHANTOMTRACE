@@ -1,0 +1,5 @@
+{"step": 1, "timestamp": "2026-10-30T22:00:01Z", "event_type": "thought", "output": "Need the weather in Pune.", "latency_ms": 600, "tokens": 280}
+{"step": 2, "timestamp": "2026-10-30T22:00:02Z", "event_type": "tool_call", "tool": "weather_api", "input": {"city": "Pune"}, "latency_ms": 120}
+{"step": 3, "timestamp": "2026-10-30T22:00:03Z", "event_type": "tool_result", "tool": "weather_api", "output": "28C, clear", "latency_ms": 310}
+{"step": 4, "timestamp": "2026-10-30T22:00:04Z", "event_type": "thought", "output": "Answer is ready.", "latency_ms": 450, "tokens": 260}
+{"step": 5, "timestamp": "2026-10-30T22:00:05Z", "event_type": "final", "output": "It is 28C and clear in Pune.", "latency_ms": 380, "tokens": 240}
